@@ -1,0 +1,1 @@
+# Aquarius.NetCore.Core.Http
