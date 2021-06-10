@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <PackageId>Aquarius.NetCore.Core.Http</PackageId>
-    <Version>1.0.0</Version>
+    <Version>0.0.1</Version>
     <Authors>SDuo</Authors>
     <PackageDescription></PackageDescription>
     <RepositoryUrl>https://github.com/sduo/Aquarius.NetCore.Core.Http</RepositoryUrl>
@@ -18,5 +18,8 @@
     <None Include="../LICENSE" Pack="true" Visible="false" PackagePath="" />
     <None Include="../icon.png" Pack="true" Visible="false" PackagePath="" />
     <None Include="../README.md" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
   </ItemGroup>
 </Project>
